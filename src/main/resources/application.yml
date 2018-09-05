@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: prod
+    
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://119.28.25.204:3306/yftpay2?autoReconnect=true
+#    username: eric123
+#    password: eric123
+    url: jdbc:mysql://localhost:3306/dbgirl?autoReconnect=true&useSSL=false
+    username: root
+    password: 123$zxcV
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
