@@ -1,4 +1,4 @@
-package com.imooc.properties;
+package com.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 //把所有Properties的girl前墜都掃出來
 @ConfigurationProperties(prefix = "girl")
-public class GirlProperties {
+public class MemberProperties {
 
 	private String cupSize;
 	

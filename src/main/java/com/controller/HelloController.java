@@ -1,4 +1,4 @@
-package com.imooc.controller;
+package com.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.imooc.properties.GirlProperties;
+import com.properties.MemberProperties;
+
 
 //@RestController可以直接搭配RequestMapping使用
 @RestController
@@ -19,7 +20,7 @@ import com.imooc.properties.GirlProperties;
 public class HelloController {
 
 	@Autowired
-	private GirlProperties girProperties;
+	private MemberProperties memberProperties;
 
 	// 用@Value 可以去抓yml裡面的值，格式如下
 //	@Value("${cupSize}")

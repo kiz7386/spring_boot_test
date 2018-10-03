@@ -1,12 +1,12 @@
-package com.imooc;
+package com;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GirlApplication {
+public class SideProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GirlApplication.class, args);
+		SpringApplication.run(SideProjectApplication.class, args);
 	}
 }
