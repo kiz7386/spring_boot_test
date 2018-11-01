@@ -1,1 +1,56 @@
-	<h1>hello Spring Boot!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>side_project</title>
+	<style type="text/css">
+		table{
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+			
+		}
+		td,th{
+			border: 1px solid #cccccc;
+		}
+		#table{
+			width:300px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top: 20%;
+			margin-bottom: 20%;
+			text-align:left}
+
+		#action_btn{
+			width:90px;
+			margin-left:30%;
+			margin-right:30%;
+			margin-top: 20%;
+			margin-bottom: 20%;
+			text-align:center}
+	</style>
+</head>
+<body>
+	<div id="table" align="center">
+	<form id="login_form" action="http://localhost:8081/Members" method="post"  accept-charset="utf-8" >
+		
+		<table>
+		<tr align="center">
+			<th>账号</th>
+			<th>
+				<input type="text" name="">
+			</th>
+			
+		</tr>
+		<tr align="center">
+			<td>密码</td>
+			<td>
+				<input type="text" name="">
+			</td>
+		</tr>
+		</table>
+		
+		<button id="action_btn" align="center" type="submit">送出</button>
+	</form>
+	</div>
+</body>
+</html>
